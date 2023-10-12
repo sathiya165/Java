@@ -1,0 +1,23 @@
+package sathicode;
+
+public class Static {
+
+	int x = 0;
+	static int y = 0;
+	
+	void counter() {
+		x++;
+		y++;
+		System.out.println("non-static => "+x+" static => "+y);
+	}
+	
+	public static void main(String[] args) {
+		Static Ss = new Static();
+		Ss.counter();
+		Ss.counter();
+		Static Ss1 = new Static();
+		Ss1.counter();
+		Ss1.counter();
+		
+	}
+}
