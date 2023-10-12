@@ -1,0 +1,33 @@
+package methods;
+
+public class Methods {
+
+	
+		// TODO Auto-generated method stub
+//access modifier returntype methodname(parameter/argument)
+		public static void main(String[] args) {
+			Methods ms = new Methods();
+			ms.deleteVideo("hdahgkfj1467");
+			ms.deleteVideo(1234);
+
+		}
+	private void deleteVideo(String videoId) {
+		System.out.println("Deleted video - " + videoId);
+	}
+	
+	private void deleteVideo(int v) {
+		System.out.println("Deleted video - " + v);
+	}
+	
+	public void createvideo() {
+			System.out.println("Video created");
+		}
+		private boolean uploadvideo() {
+			System.out.println("Uploading");
+			return true;
+		}
+		public String sharevideo() {
+			return "Instagram";
+		}
+	}
+
