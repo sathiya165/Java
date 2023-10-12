@@ -1,0 +1,15 @@
+package sathicode;
+
+public class ThisAndInstance {
+	int c=50;//instance variable
+	
+	void addTwoNumbers(int a, int b) {
+		int c =30;//local variable
+		System.out.println(this.c);
+		System.out.println(a+b+c);
+	}
+public static void main(String[] args) {
+	ThisAndInstance Ts= new ThisAndInstance();
+	Ts.addTwoNumbers(7,9);
+}
+}
