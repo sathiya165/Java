@@ -1,0 +1,29 @@
+package sathicode;
+
+public class Seleniumlearning {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Hello world");
+
+String name ="Sathiya";
+System.out.println(name);
+byte age = 25;
+System.out.println(age);
+float weight = 55.8f;
+System.out.println(weight);
+double height = 178.098578928;
+System.out.println(height);
+long phone =9698473101L;
+System.out.println(phone);
+int salary =60000;
+System.out.println(salary);
+short rollno = 7011;
+System.out.println(rollno);
+char initial ='s';
+System.out.println(initial);
+boolean married =false;
+System.out.println(married);
+	}
+
+}
