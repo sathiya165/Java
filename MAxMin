@@ -1,0 +1,22 @@
+package Array;
+
+import java.util.Arrays;
+
+class MinMax{
+	
+	static int getMin (int arr[],int n) {
+		 return Arrays.stream(arr).min().getAsInt();
+	 }
+	 static int getMax (int arr[],int n) {
+		 return Arrays.stream(arr).max().getAsInt();
+	 }
+	 
+	 public static void main(String[] args) {
+			int arr[]= {13,1235,48,68,9};
+			int n=arr.length;
+			System.out.println("Minimum element of array : "+getMin(arr,n));
+			System.out.println("Maximum element of array : "+getMax(arr,n));
+		}
+}
+
+
