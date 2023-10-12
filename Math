@@ -1,0 +1,24 @@
+package Array;
+
+public class Array {
+ static int getMin(int array[],int n) {
+	 int result = array[0];
+	 for(int i=1;i<n;i++)
+		 result =Math.min(result, array[i]);
+	 return result;
+ }
+ static int getMax(int array[],int n) {
+	 int result = array[0];
+	 for(int i=1;i<n;i++)
+		 result =Math.max(result, array[i]);
+	 return result;
+ }
+ public static void main(String[] args) {
+	int array[]= {12,1234,45,67,1};
+	int n=array.length;
+	System.out.println("Minimum element of array : "+getMin(array,n));
+	System.out.println("Maximum element of array : "+getMax(array,n));
+}
+ 
+}
+
