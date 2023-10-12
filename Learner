@@ -1,0 +1,37 @@
+package sathicode;
+
+public class Learner {
+	
+public Learner(int x) {
+	this.x = x;
+}
+Learner(int x,String b){
+	this.x = x;
+	this.b = b;
+}
+public Learner(int x, String s,float c) {
+	this.x = x;
+	this.b = b;
+	this.c = c;
+}
+int x ;
+String b;
+float  c;
+
+void display() {
+	System.out.println("x"+"-->"+x);
+	System.out.println("x"+"-->"+x +b);
+	System.out.println("x"+"-->"+x +b+c);
+}
+
+	public static void main(String[] args) {
+		Learner Ls = new Learner(10);
+		Ls.display();
+		Learner Ls1 = new Learner(100,"good");
+		Ls1.display();
+		Learner Ls2 = new Learner(1000,"bad",78.09f);
+		Ls2.display();
+	}
+
+
+}
