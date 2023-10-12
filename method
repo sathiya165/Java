@@ -1,0 +1,14 @@
+package methods;
+
+public class Mycar {
+public static void main(String[] args) {
+	Car Cr = new Car();
+	 String gear = Cr.carname();
+	 System.out.println(gear);
+	 int num = Cr.carno;
+	 System.out.println(num);
+	 boolean brake = Cr.brake();
+	 System.out.println(brake);
+		
+}
+}
