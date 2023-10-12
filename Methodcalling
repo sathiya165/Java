@@ -1,0 +1,10 @@
+package methods;
+
+public class MethodCalling {
+public static void main(String[] args) {
+	Methods ms = new Methods();
+	String shared = ms.sharevideo();
+	System.out.println(shared);
+	
+}
+}
