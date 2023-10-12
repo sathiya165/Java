@@ -1,0 +1,24 @@
+package methods;
+
+public class Mobile {
+	public static void main(String[] args) {
+		Mobile Mb =new Mobile();
+		Mb.name("Realme 9 pro");
+		Mb.Ipno(987898);
+		String ent = Mb.Enter();
+		System.out.println(ent);
+		
+		
+	}
+private void name(String name) {
+	System.out.println("Mobile Name : " +name );
+}
+public void Ipno(int Ipno) {
+	System.out.println(Ipno);
+}
+public String Enter() {
+	 return "Entered";
+}
+
+
+}
