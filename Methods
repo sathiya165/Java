@@ -1,0 +1,22 @@
+package methods;
+
+public class Car {
+String name ="Lambogeini";
+int carno = 1765;
+
+public void gear() {
+	System.out.println("Start car");
+}
+public boolean brake() {
+	System.out.println("Needed");
+	return false;
+
+}
+public String carname() {
+	return (name);
+}
+public int number() {
+return (carno);
+}
+}
+
